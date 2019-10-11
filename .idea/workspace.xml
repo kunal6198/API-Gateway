@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ec789ae-c59d-45c9-add8-07f1947300bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot_test/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/config/ApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieApp" beforeDir="false" afterPath="$PROJECT_DIR$/MovieApp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MovieApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MovieApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/src/test/java/com/stackroute/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/src/test/java/com/stackroute/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/src/test/java/com/stackroute/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/src/test/java/com/stackroute/repository/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_test/src/test/java/com/stackroute/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/src/test/java/com/stackroute/service/UserServiceTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1S3F5cCbxZvcu5vfaxhgcBhO28B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="docker-compose.yml.spring: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="spring" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.spring: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SQLPlugin.ProjectConfiguration">
+    <queries />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ec789ae-c59d-45c9-add8-07f1947300bf" name="Default Changelist" comment="" />
+      <created>1570784189642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570784189642</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

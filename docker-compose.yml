@@ -1,0 +1,68 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+
+  mongo:
+    image: mongo
+    container_name: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    network_mode: host
+    volumes:
+      - $HOME/mongo:/data/db/
+
+
+  spring:
+    image: api-gateway
+    build: api-gateway
+    restart: always
+    network_mode: host
+    hostname: localhost
+    container_name: api-interface-container
+    ports:
+      - 8090:8070
+
+
+  spring3:
+    image: config-server
+    build: config-service/
+    restart: always
+    network_mode: host
+    hostname: localhost
+    container_name: config-server-container
+    ports:
+      - 8888:8075
+  spring4:
+    image: user-app
+    build: springboot_test
+    restart: always
+    network_mode: host
+    hostname: localhost
+    container_name: config-server-container
+    ports:
+      - 8080:8095
+
+  spring2:
+    image: spring-eureka
+    build: spring-eureka-server/
+    restart: always
+    network_mode: host
+    hostname: localhost
+    container_name: eureka-container
+    ports:
+      - 8761:8085
+
+  spring1:
+    image: movie-app
+    build: MovieApp/
+    restart: always
+    network_mode: host
+    hostname: localhost
+    container_name:
+    depends_on:
+      - mongo
+    ports:
+      - 8080:8090
+
