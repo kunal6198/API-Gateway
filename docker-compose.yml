@@ -13,7 +13,6 @@ services:
     volumes:
       - $HOME/mongo:/data/db/
 
-
   spring:
     image: api-gateway
     build: api-gateway

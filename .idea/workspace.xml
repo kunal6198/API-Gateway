@@ -4,8 +4,12 @@
     <list default="true" id="8ec789ae-c59d-45c9-add8-07f1947300bf" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/springboot_test/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/config/ApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieApp" beforeDir="false" afterPath="$PROJECT_DIR$/MovieApp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MovieApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MovieApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_test" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_test/src/main/java/com/stackroute/controller/UserController.java" afterDir="false" />
@@ -39,7 +43,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="docker-compose.yml.spring: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings>
@@ -55,12 +67,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.spring: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
